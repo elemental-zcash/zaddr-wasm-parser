@@ -8555,7 +8555,7 @@ Error generating stack: ` + e.message + `
         return f(), Sf.exports = Yy(), Sf.exports;
       }
       var wy = Gy();
-      const jy = "/assets/zaddr_wasm_parser_bg-D15b5_Ez.wasm", Xy = async (f = {}, v) => {
+      const jy = "/zaddr-wasm-parser/assets/zaddr_wasm_parser_bg-D15b5_Ez.wasm", Xy = async (f = {}, v) => {
         let y;
         if (v.startsWith("data:")) {
           const s = v.replace(/^data:.*?base64,/, "");
