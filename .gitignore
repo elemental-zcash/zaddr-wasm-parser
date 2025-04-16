@@ -1,0 +1,24 @@
+# macOS system files
+.DS_Store
+__MACOSX/
+
+# Rust build output
+/pkg/
+target/
+
+# Node.js dependencies
+node_modules/
+ts-wrapper/node_modules/
+
+# TypeScript build artifacts
+ts-wrapper/dist/
+ts-wrapper/.tsbuildinfo
+
+# Test runner caches & logs
+.vite/
+.cache/
+coverage/
+*.log
+
+# VSCode
+.vscode/
